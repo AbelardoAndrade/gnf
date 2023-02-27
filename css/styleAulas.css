@@ -1,0 +1,177 @@
+
+header {
+    position: fixed;
+    margin-top: -7rem;
+}
+body {
+    background-image: url('../assets/nails.jpeg');
+    background-position:  center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    max-width: 100%;
+}
+
+
+#principal {
+    margin: auto;
+   
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+
+.video {
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color:rgba(0, 0, 0, 0.318) ;
+    margin-top: 1rem;
+}
+
+.video-title {
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+    text-shadow: 1px 2px 4px darkgoldenrod;
+    
+}
+
+.formulario-title {
+    font-family: 'Megrim', cursive;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    text-shadow: 1px 2px 4px darkgoldenrod;
+    
+}
+
+.form {
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+.form i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.formulario-title:hover {
+    color: darkgoldenrod;
+}
+.form i:hover {
+    color: darkgoldenrod;
+}
+
+.text {
+    padding: 2rem;
+    background-color: rgba(154, 139, 112, 0.353);
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-shadow: 1px 2px 4px darkgoldenrod;
+}
+
+#section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15,#section16, #section17, #section18, #section19, #section20, #section21, #section22, #section23
+{
+    padding: 4rem;
+}
+
+  
+
+@media (max-width: 763px) {
+   header {
+    max-width: 80%;
+
+   }
+   
+    #principal {
+        max-width: 90%;
+        padding: 0;
+    }
+    .container {
+       max-width: 100%;
+       margin-inline: auto;
+       gap: 6rem;
+    }
+
+    .video {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .video-title {
+        font-size: 1.5rem;
+        
+    }
+
+    .text {
+        font-size: 0.9rem;
+        padding: 0.7rem;
+    }
+
+    .formulario-title {
+        font-size: 1.3rem;
+       
+        
+    }
+
+    .form {
+        padding-bottom: 1rem;
+    }
+
+    #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15,#section16, #section17, #section18, #section19, #section20, #section21, #section22, #section23 {
+        padding: 0;
+        max-width: 100%;
+       
+    }
+
+    iframe {
+        max-width: 100%;
+        padding-top:1rem ;
+    }
+
+    .container-fluid {
+        max-width: 80%;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 763px) and (max-width:1440) {
+    #logo {
+        width: 10%;
+        
+    }
+
+.text-logo {
+max-width: 10%;
+}
+
+.logo-tittle {
+    font-size: 1.2rem;
+    width: 50%;
+    margin-left: -0.9rem;
+}
+
+    #Id1 {
+width: 10%;
+display: flex;
+    }
+
+}
